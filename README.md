@@ -1,5 +1,5 @@
 # c-programming-notes
-## C programlama dilinde standart fonksiyonlar  
+## C programlama dilindeki standart fonksiyonlar ve tanımları   
 #### conio.h kütüphanesine ait fonksiyonlar  
 **clrscr** Ekranı temizler  
 **delline** Sadece imlecin bulunduğu satırı siler  
