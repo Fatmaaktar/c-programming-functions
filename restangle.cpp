@@ -10,8 +10,8 @@ int main() {
 	initgraph(&gsrucusu,&gmodu,"");
 	hatakodu =graphresult();
 	if(hatakodu!=grOK){
-		printf("Grafik hatası: %s\n", grapherrormsg(hatakodu));
-		printf("Durdurmak için herhangi bir tuşa basın");
+		printf("Grafik hatasÃ½: %s\n", grapherrormsg(hatakodu));
+		printf("Durdurmak iÃ§in herhangi bir tuÃ¾a basÃ½n");
 		getch();
 		exit(1);
 		
