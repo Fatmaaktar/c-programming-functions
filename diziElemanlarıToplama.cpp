@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 int main() {
-// dizi elemanlarýný toplayan program
+// dizi elemanlarini toplayan program
 int n;
 int dizi_uzunlugu;
 printf("\n dizi uzunlugu giriniz:\n");
@@ -18,11 +18,11 @@ while(n>0){
 	i++;
 	n--;
 }
-int toplam=0;
+int total=0;
 for(i=0;i<dizi_uzunlugu;i++){
-	toplam=toplam+dizi[i];
+	total=total+dizi[i];
 }
-printf("\n dizideki elemanlarin toplami: %d\n",toplam);
+printf("\n dizideki elemanlarin toplami: %d\n",total);
 return(0);
 
 }
