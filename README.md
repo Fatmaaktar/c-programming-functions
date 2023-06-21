@@ -5,7 +5,7 @@
 **delline** Sadece imlecin bulunduğu satırı siler  
 **clreol** İmlecin bulunduğu yerden satır sonuna kadar kısmı siler  
 **insline** Araya boş bir satır ekler  
-**textcolor** text ekranda yazı rengini tanımlar(0-15 atası renkler)  
+**textcolor** text ekranda yazı rengini tanımlar(0-15 arası renkler)  
 **textbackground** text ekranda zemin rengi tanımlar  
 **lowvideo** yazının görüntüsünü matlaştırır   
 **highvideo** yazının görüntüsünü parlaklaştırır  
