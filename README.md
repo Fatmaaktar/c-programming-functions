@@ -21,6 +21,10 @@
  **strlwr** verilen stringin bütün karakterlerini küçük harfe çevirir  
  **strupr** verilen stringin tüm karakterlerini büyük harfe çevirir  
  **strrev** verilen stringi tersine çevirir  
+ **strcat** hedef stringin sonuna kaynak stringi ekler  
+ **strcmp** iki stringi karşılaştırır  
+ **strstr** ilk stringin içinde ikinci stringi arar ve ilk bulduğu yerin adresinin döndürür  
+ **strchr** stringin içinde karakter arar ve adresini döndürür  
  
  #### math.h kütüphanesine ait fonksiyonlar  
  **abs** verilen tam sayının mutlak değerini üretir  
@@ -38,6 +42,8 @@
  **puts** giriş birimine bir stringi yazmak için kullanılır  
  **getw** dosyadan tamsayı okur  
  **putw** dosyaya tam sayı yazar  
+ **getc** dosyadan tek karakter okur  
+ **putc**  dosyadan tek karakter yazdırır  
  
  #### time.h kütüphanesine ait fonksiyonlar  
  **clock** çalıştırıldığı andaki sistem saati bilgilerini alır  
@@ -60,4 +66,12 @@
  **rand** rastgele sayı üretir  
  **random** verilen değerler arasında ratgele tamsayı üretir  
  **randomize** random sayı üreticisi başlatır  
- **exit** programı sonlandırır
+ **exit** programı sonlandırır  
+
+ #### ctype.h kütüphanesine ait fonksiyonlar  
+ **toupper** verilen parametreyi büyük harfe çevirir  
+ **tolower** verilen parametreyi küçük harfe çevirir  
+ **toascii** verilen parametreyi 0-127 arası bir koda dönüştürür  
+ **isprint** yazdırılabilir bir karakter ise true değer döndürür  
+ **isalpha** verilen değer harf ise true değer döndürür  
+ **isdigit** verilen değer rakam ise true değer döndürür  
