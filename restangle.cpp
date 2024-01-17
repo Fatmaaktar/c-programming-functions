@@ -5,13 +5,13 @@
 #include<conio.h>
 
 int main() {
-	int gsurucusu =DETECT , gmodu,hatakodu;
+	int gdrive =DETECT , gmode,error_code;
 	int x1,y1,x2,y2;
-	initgraph(&gsrucusu,&gmodu,"");
-	hatakodu =graphresult();
-	if(hatakodu!=grOK){
-		printf("Grafik hatasý: %s\n", grapherrormsg(hatakodu));
-		printf("Durdurmak için herhangi bir tuþa basýn");
+	initgraph(&gdrive,&gmode,"");
+	error_code =graphresult();
+	if(error_code!=gOK){
+		printf("Grafik hatasi: %s\n", grapherrormsg(error_code));
+		printf("Durdurmak için herhangi bir tusa basin");
 		getch();
 		exit(1);
 		
