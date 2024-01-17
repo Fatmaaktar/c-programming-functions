@@ -1,4 +1,4 @@
-# c-programming-notes
+# 💻 C Programlama
 ## C programlama dilindeki standart fonksiyonlar ve işlevleri   
 #### conio.h kütüphanesine ait fonksiyonlar  
 **clrscr** Ekranı temizler  
