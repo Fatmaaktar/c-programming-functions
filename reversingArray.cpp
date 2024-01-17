@@ -3,25 +3,25 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-//diziyi tersten yazdýrma
+//diziyi tersten yazdirma
 
 int main() {
 	int n;
-	int dizi_uzunlugu;
+	int array_length;
 	printf("\nDizinin uzunlugunu giriniz :\n");
-	scanf("%d",&dizi_uzunlugu);
-	n=dizi_uzunlugu;
-	int dizi[n];
+	scanf("%d",&array_length);
+	n=array_length;
+	int array1[n];
 	int i=0;
 	while(n>0){
 		printf("%d.elemani giriniz:\n",i+1);
-		scanf("%d",&dizi[i]);
+		scanf("%d",&array1[i]);
 		i++;
 		n--;
 	}
 	printf("\n ters sirada dizi :\n");
-	for(i=dizi_uzunlugu-1;i>=0;i--){
-		printf("%d",&dizi[i]);
+	for(i=array_length-1;i>=0;i--){
+		printf("%d",&array1[i]);
 		return 0 ;
 	}
 }
