@@ -5,14 +5,14 @@
 int i,a[10];
 
 main() {
-printf("Dizi elemanlarýný girniz: \n");
+printf("Dizi elemanlarini girniz: \n");
 for(i=0;i<=9;i++){
-	printf("dizi[%d]:",i);
+	printf("array1[%d]:",i);
 	scanf("%d",&a[i]);
 }
-printf("Girilen dizi elemanlarý:\n");
+printf("Girilen dizi elemanlari:\n");
 for(;i--;)
-printf("dizi[%d]:%d\t",i,a[i]);
+printf("array1[%d]:%d\t",i,a[i]);
 getch();
 
 	
