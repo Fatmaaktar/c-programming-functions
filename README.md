@@ -1,6 +1,8 @@
 # 💻 C Programlama
+
 ## C programlama dilindeki standart fonksiyonlar ve işlevleri   
-#### conio.h kütüphanesine ait fonksiyonlar  
+
+### 📜conio.h kütüphanesine ait fonksiyonlar  
 **clrscr** Ekranı temizler  
 **delline** Sadece imlecin bulunduğu satırı siler  
 **clreol** İmlecin bulunduğu yerden satır sonuna kadar kısmı siler  
@@ -16,7 +18,7 @@
 **kbhit** herhangi bir tuşa basılıp basılmadığını kontrol eder  
 **cprintf** formatlı çıkış bilgisi yazdırır  
 **cscanf** formatlı giriş bilgisi yazdırır  
- #### string.h kütüphanesi fonksiyonları  
+ ### 📜string.h kütüphanesi fonksiyonları  
  **strlen** parametre olarak verilen stringdeki karakter sayısını verir  
  **strlwr** verilen stringin bütün karakterlerini küçük harfe çevirir  
  **strupr** verilen stringin tüm karakterlerini büyük harfe çevirir  
@@ -26,7 +28,7 @@
  **strstr** ilk stringin içinde ikinci stringi arar ve ilk bulduğu yerin adresinin döndürür  
  **strchr** stringin içinde karakter arar ve adresini döndürür  
  
- #### math.h kütüphanesine ait fonksiyonlar  
+ ### 📜math.h kütüphanesine ait fonksiyonlar  
  **abs** verilen tam sayının mutlak değerini üretir  
  **cos** radyan cinsinden verilen açının cosinüsünü verir  
  **sin** radyan cinsinden verilen açının sinüsünü verir  
@@ -37,7 +39,7 @@
  **ceil** yukarı yuvarlama işlemi yapar  
  **floor** aşağı yuvarlama işlemi yapar  
  
- #### stdio.h kütüphanesine ait fonksiyonlar  
+ ### 📜stdio.h kütüphanesine ait fonksiyonlar  
  **gets** giriş aygıtından string okur  
  **puts** giriş birimine bir stringi yazmak için kullanılır  
  **getw** dosyadan tamsayı okur  
@@ -45,18 +47,18 @@
  **getc** dosyadan tek karakter okur  
  **putc**  dosyadan tek karakter yazdırır  
  
- #### time.h kütüphanesine ait fonksiyonlar  
+ ### 📜time.h kütüphanesine ait fonksiyonlar  
  **clock** çalıştırıldığı andaki sistem saati bilgilerini alır  
  **time** saat bilgisini saniye olarak verir  
  
- #### dos.h kütüphanesine ait fonksiyonlar  
+ ### 📜dos.h kütüphanesine ait fonksiyonlar  
  **settime** sistem zaman bilgisi değiştirir  
  **gettime** sistem zaman bilgisini öğrenmek için kullanılır  
  **delay** verilen milisaniye kadar programı durdurur  
  **sleep** verilen saniye kadar programı durdurur  
  **sound** PC'nin ses üreticisinden verilen frekansta ses üretir  
  
- #### stdlib.h kütüphanesine ait fonksiyonlar  
+ ### 📜stdlib.h kütüphanesine ait fonksiyonlar  
  **atoi** stringi tamsayıya sayıya çevirir  
  **atol** stringi long tipinde tamsayıya sayıya çevirir  
  **atof** stringi reel sayıya çevirir  
@@ -68,7 +70,7 @@
  **randomize** random sayı üreticisi başlatır  
  **exit** programı sonlandırır  
 
- #### ctype.h kütüphanesine ait fonksiyonlar  
+ ### 📜ctype.h kütüphanesine ait fonksiyonlar  
  **toupper** verilen parametreyi büyük harfe çevirir  
  **tolower** verilen parametreyi küçük harfe çevirir  
  **toascii** verilen parametreyi 0-127 arası bir koda dönüştürür  
