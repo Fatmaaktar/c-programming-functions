@@ -1,6 +1,6 @@
 # 💻 C Programing  
 
-## C programming language standard functions and their purposes:  
+## The Purposes of Functions in C Programming and the libraries they belong to:
 
 
 ### 📜conio.h Library Functions:  
